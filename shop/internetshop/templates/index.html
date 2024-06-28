@@ -19,13 +19,13 @@
     </div>
     </div>
     </div>
+{% for product in products %}
 <div class="productlist">
-{% for products in product %}
  <div class="product">
     <h1>{{ product.name }}</h1>
-    <img src="{{ product.imageurl }}" width="250">
+    <img src="{{ product.image_url }}" width="250">
      <div>
-     <h2 style="margin-left: 305px">ОФИЦИАЛЬНОЕ ОПИСАНИЕ ОТ ПРОИЗВОДИТЕЛЯ</h2>
+     <h2 style="margin-left: 305px">{{ product.official_or_not_description }}</h2>
      <p style="margin-left: 25px">{{ product.description }}</p>
      <div class="price"><h1>{{ product.price }} руб.</h1>
      <button class="but" style="color: #800080">Купить</button>
