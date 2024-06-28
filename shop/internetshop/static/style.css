@@ -1,0 +1,67 @@
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+    .Hello {
+    display: flex;
+    }
+    h1 {
+    color: #800080;
+    }
+    h2 {
+    color: #800080;
+    }
+    h3 {
+    color: #800080;
+    }
+    p {
+    color: #008000;
+    }
+    * {
+    font-family: Source Code Pro;
+        background-color: #000000;
+    }
+    .product {
+    display:flex;
+    border: 2px green solid;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    }
+    .productlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .price {
+      margin-left: 420px;
+      margin-top: 25px;
+}
+    .price1 {
+    margin-left: 430px;
+    margin-top: 25px;
+    }
+    .but {
+  width: 200px;
+  height: 50px;
+  margin-left: 35px;
+  border: 4px solid #000000;
+}
+    .but21 {
+    margin-left:70px;
+    width:200px;
+    height:50px;
+    border: 4px solid #000000;
+    }
+    .but:hover {
+    border: 2px solid #008000;
+    border-radius: 15px;
+    }
+    .but21:hover {
+    border: 2px solid #008000;
+    border-radius: 15px;
+    }
+    a {
+    text-decoration:none;
+    }
+    a:hover {
+    color: #008000;
+    }
