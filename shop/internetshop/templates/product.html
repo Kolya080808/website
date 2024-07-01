@@ -19,18 +19,12 @@
     </div>
     </div>
     </div>
-{% for product in products %}
-<div class="productlist">
- <div class="product">
-    <h1>{{ product.name }}</h1>
-    <img src="{{ product.image_url }}" width="250">
-     <div>
-     <h2 style="margin-left: 305px">{{ product.official_or_not_description }}</h2>
-     <p style="margin-left: 25px">{{ product.description }}</p>
-     <div class="price"><h1>{{ product.price }} руб.</h1>
-     <button class="but" style="color: #800080">Купить</button>
-     </div>
-         </div>
+<div class="product_Card">
+    <img src="https://s3.sravni.ru/cms/Default/KnowledgeBaseArticle/1/planet1.jpeg">
+    <div class="productnamenprice">
+        <h1>NAME</h1>
+        <h2>DESCRIPTION</h2>
+        <h3>PRICE</h3>
     </div>
-    </div>
-{% endfor %}
+    <p>description</p>
+</div>

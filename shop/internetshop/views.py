@@ -8,3 +8,5 @@ def home(request):
     return render(request, "index.html",{
         'products': products
                     })
+def view_product(request):
+    return render(request, 'product.html')
